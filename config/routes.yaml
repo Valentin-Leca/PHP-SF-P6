@@ -1,3 +1,11 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+index:
+    path: /
+    controller: App\Controller\HomeController::index
+
+home:
+    path: /home
+    controller: App\Controller\HomeController::index
+
+trick:
+    path: /trick
+    controller: App\Controller\TrickController::index
