@@ -1,11 +1,7 @@
-index:
-    path: /
-    controller: App\Controller\HomeController::index
+controllers:
+    resource: ../src/Controller/
+    type: annotation
 
-home:
-    path: /home
-    controller: App\Controller\HomeController::index
-
-trick:
-    path: /trick
-    controller: App\Controller\TrickController::index
+kernel:
+    resource: ../src/Kernel.php
+    type: annotation

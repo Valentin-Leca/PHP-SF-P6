@@ -246,7 +246,7 @@ a.tm-text-primary:hover { color:#666666; }
     border-radius: 0;
     padding: 12px 15px;
     color: #009999;
-    border: none;
+    border: 1px solid #999;
 }
 
 .tm-search-input:focus {
